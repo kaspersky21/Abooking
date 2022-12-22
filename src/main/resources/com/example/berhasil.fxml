@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #6C4AB6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.berhasilController">
+   <children>
+      <Text fill="WHITE" layoutX="147.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Successful!" textAlignment="CENTER" wrappingWidth="405.4700164794922">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="147.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Booking Number : 229917468129" textAlignment="CENTER" wrappingWidth="405.4700164794922">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="191.0" fitWidth="237.0" layoutX="254.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@centang.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button_ok" layoutX="284.0" layoutY="394.0" mnemonicParsing="false" onAction="#nextStep" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #8D9EFF;" text="OKE!" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

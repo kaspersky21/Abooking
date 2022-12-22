@@ -1,0 +1,1 @@
+SELECT * FROM abooking.gold_book;
