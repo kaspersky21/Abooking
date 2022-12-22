@@ -1,0 +1,1 @@
+SELECT * FROM abooking.plat_book;
